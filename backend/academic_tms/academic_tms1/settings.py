@@ -83,6 +83,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 OPENAI_API_KEY = os.getenv('OPENAI_API_KEY')
 
 CORS_ALLOWED_ORIGINS = [
+    "https://ai-based-academic-time-table-and.onrender.com",
     "http://localhost:5173",
     "http://127.0.0.1:5173",
     "http://localhost:4173",
@@ -92,6 +93,8 @@ CORS_ALLOWED_ORIGINS = [
     "http://localhost:5501",
     "http://127.0.0.1:5501",
 ]
+
+CORS_ALLOW_CREDENTIALS = True
 
 CSRF_TRUSTED_ORIGINS = CORS_ALLOWED_ORIGINS
 SESSION_COOKIE_HTTPONLY = True
