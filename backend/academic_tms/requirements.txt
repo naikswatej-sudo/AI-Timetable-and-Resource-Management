@@ -1,6 +1,6 @@
 Django>=5.2,<5.3
 mysqlclient
-Django>=5.2,<5.3
+djangorestframework
 python-dotenv
 openai>=1.0.0
-Django>=5.2,<5.3
+django-cors-headers
