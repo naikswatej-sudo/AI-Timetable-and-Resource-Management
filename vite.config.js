@@ -35,7 +35,7 @@ export default defineConfig({
     port: Number(process.env.PORT) || 8000,
     strictPort: true,
     allowedHosts: [
-    'ai-based-academic-time-table-and.onrender.com'
+    'ai-timetable-and-resource-management-owyq.onrender.com'
     ],
   },
 
